@@ -2,6 +2,8 @@ class Casama < Formula
   desc "Command-line client for Casama, the self-hostable home for AI bots with computers"
   homepage "https://casama.ai"
   version "0.1.1"
+  # The CLI went from 0.8.0 back to 0.1.0 (version reset); this makes brew treat 0.1.x as newer.
+  version_scheme 1
   license "Apache-2.0"
 
   on_macos do
