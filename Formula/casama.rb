@@ -1,27 +1,27 @@
 class Casama < Formula
   desc "Command-line client for Casama, the self-hostable home for AI bots with computers"
   homepage "https://casama.ai"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.0/casama-0.1.0-darwin-arm64.tar.gz"
-      sha256 "68f5e3ab6b101f4c3fc1ef13ccb0678bd84140d1f11d1162a39514c58d6e7a87"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.1/casama-0.1.1-darwin-arm64.tar.gz"
+      sha256 "be66ee7c756b9d065b0a33055d46b1a2148f2c2b0e60a55623e3d9d6db1d971b"
     end
     on_intel do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.0/casama-0.1.0-darwin-x64.tar.gz"
-      sha256 "fb424a9413057a4931bfb261cdff692180bb6059c80d1fadca8671893e2724a0"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.1/casama-0.1.1-darwin-x64.tar.gz"
+      sha256 "42c2071f3830a70dc02e76c6960eb5f2fffd9522d6a90c20a2c8e29282692a58"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.0/casama-0.1.0-linux-arm64.tar.gz"
-      sha256 "0a908b7b20b44726c6824c240dbad1c5fc0f299fa27817baab37ec44a7bdfb70"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.1/casama-0.1.1-linux-arm64.tar.gz"
+      sha256 "0ff31c95f2e90deb1939ed72615d437c1e0eddc5e9563ee3d75cbe96391385b5"
     end
     on_intel do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.0/casama-0.1.0-linux-x64.tar.gz"
-      sha256 "83b5b82ae72d07e3dc4cd57b57f15549d54034e0eb70d1f4765478760789b6af"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.1/casama-0.1.1-linux-x64.tar.gz"
+      sha256 "ba9c9244385b47b22cc750e51f129388f9c8466cc5274c196115cc4286541f8c"
     end
   end
 
