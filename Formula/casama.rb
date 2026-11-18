@@ -1,29 +1,29 @@
 class Casama < Formula
   desc "Command-line client for Casama, the self-hostable home for AI bots with computers"
   homepage "https://casama.ai"
-  version "0.1.2"
+  version "0.1.3"
   # The CLI went from 0.8.0 back to 0.1.0 (version reset); this makes brew treat 0.1.x as newer.
   version_scheme 1
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.2/casama-0.1.2-darwin-arm64.tar.gz"
-      sha256 "597e9a32516f2f6f4439719f014021c0bb4160b4547a6c3e4add44634846ecfd"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.3/casama-0.1.3-darwin-arm64.tar.gz"
+      sha256 "f26336f53b9b4a4a95ab6b9f9faa98b0a425439c7b5dc11b53e43269c9d19714"
     end
     on_intel do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.2/casama-0.1.2-darwin-x64.tar.gz"
-      sha256 "6cb6b1a93ff2fb57ae4b5c7106373bbad1f7b7458e810bcbde8f2d430560a05c"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.3/casama-0.1.3-darwin-x64.tar.gz"
+      sha256 "74fd3bcb97101b690b8df4fd9af711ab25dfd9da9e93b06114a49c16ca350b8d"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.2/casama-0.1.2-linux-arm64.tar.gz"
-      sha256 "e42b08508fcbf56d72067d2c3d253398feeaebccf040a2d556b11ff778b32318"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.3/casama-0.1.3-linux-arm64.tar.gz"
+      sha256 "a0663991628ccfdd28397e3c14946e8925037da9b0ec4901a400ac3811c89ce8"
     end
     on_intel do
-      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.2/casama-0.1.2-linux-x64.tar.gz"
-      sha256 "45d092eb52738a4e3a70fe47aef8f8b9eb7770ba2daee47d8b5ac771383d1059"
+      url "https://github.com/stackwares/casama-releases/releases/download/cli-v0.1.3/casama-0.1.3-linux-x64.tar.gz"
+      sha256 "169ebf846fa18b20ba2810f52ef9658b99513054b39fe372e5eed2869d6252f6"
     end
   end
 
