@@ -22,9 +22,13 @@ To update:
 brew upgrade --cask flunner
 ```
 
----
+### Casama
 
-Made with ❤️ by [Stackwares](https://github.com/stackwares)
+Home for AI teammates with their own computers ([casama.ai](https://casama.ai)).
+
+```bash
+brew install --cask stackwares/tap/casama
+```
 
 ### Casama CLI
 
@@ -34,3 +38,7 @@ The command-line client for [Casama](https://casama.ai).
 brew install stackwares/tap/casama
 casama --version
 ```
+
+---
+
+Made with ❤️ by [Stackwares](https://github.com/stackwares)
