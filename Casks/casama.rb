@@ -1,6 +1,6 @@
 cask "casama" do
   version "0.1.0"
-  sha256 "491fe2a424f4452e75240d1fcaaf00574e5c133402bc68e6d431302b13a073b5"
+  sha256 "207d7ebe71208f6aa0d4e7d5bc6879a0cd691e3ed35ca6a88618f048ffe8aca3"
 
   url "https://github.com/stackwares/casama-releases/releases/download/v#{version}/Casama-#{version}-macos.dmg"
   name "Casama"
