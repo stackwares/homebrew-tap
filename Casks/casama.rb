@@ -1,14 +1,14 @@
 cask "casama" do
   version "0.1.0"
-  sha256 "513ca6da53019c04372223868e9fc90c914ba10347f49892e0d623dcd6772a48"
+  sha256 "410f0a404b0e9639db544ee90af537f14f80972f7d30115da254a978750a77ac"
 
-  url "https://github.com/stackwares/casama-releases/releases/download/v#{version}/Casama-#{version}-macos.dmg"
+  url "https://github.com/casama-ai/casama-releases/releases/download/v#{version}/Casama-#{version}-macos.dmg"
   name "Casama"
   desc "Self-hostable home for AI teammates with their own computers"
   homepage "https://casama.ai/"
 
   livecheck do
-    url "https://raw.githubusercontent.com/stackwares/casama-releases/main/appcast-macos.xml"
+    url "https://raw.githubusercontent.com/casama-ai/casama-releases/main/appcast-macos.xml"
     strategy :sparkle, &:short_version
   end
 
